@@ -1,0 +1,53 @@
+body{
+  font-weight:bold;
+  color:#555;
+}
+.page{
+  margin:20px 5%;
+}
+.container{
+  width:60%;
+
+}
+.row{
+  display:flex;
+  margin:0 0 20px 0;
+}
+.label{
+  width:23%;
+  min-width:250px;
+  margin-left:0;
+  padding-left:0;
+
+}
+.input{
+  width: 40%;
+  margin:0;
+  padding:0;
+}
+.memo{
+  font-size:11px;
+  color:#999;
+  font-weight:500;
+}
+.pwd-container{
+  width: 100%;
+  padding:10px;
+  margin:0 0 20px 0;
+  background:#afefff;
+  border-radius:10px;
+  display:flex;
+}
+.gen-msg{
+  margin:0 20px 0 0;
+  color:#279;
+}
+.final-pwd{
+  color:#f2e;
+}
+.validated:valid{
+  border:1px solid green;
+}
+.validated:invalid {
+  border: 1px solid red;
+}
