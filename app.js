@@ -18,7 +18,6 @@ app.post('/', (req, res) => {
   const data = req.body
   const len = Number(data.length)
   const password = getPassword(len, data.lowercase, data.uppercase, data.number, data.symbol, data.exclude)
-  console.log(data)
   res.render('index', {password, data})
   
 })
